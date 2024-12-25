@@ -1,0 +1,6 @@
+﻿@model List<BlogPostViewModel>
+@foreach(var blogPost in Model)
+{
+	<p>@blogPost.Title</p>
+	<img src="@blogPost.PictureUrl" alt="@blogPost.Title" />
+}
